@@ -10,8 +10,10 @@ console.log(domanda1);
 const numeri = [];
 for (let i = 0; i < domanda1; i++){
     numeri.push(getRndInteger(1, 100));
-    
 }
+
+console.log(numeri.slice(-5));
+
 
 
 console.log(numeri);
